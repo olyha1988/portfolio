@@ -18,7 +18,7 @@ const Projects = () => {
           <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
 
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
-              Admin Dashboard – Frontend (Internship Mini Project)
+              Admin Dashboard – Frontend (Internship  Project)
             </h3>
 
             <span className="text-sm text-gray-500 dark:text-gray-400 mt-2 md:mt-0">
@@ -27,14 +27,30 @@ const Projects = () => {
 
           </div>
 
-          {/* LINK */}
-          <a
-            href="https://link-to-project.com"
-            className="text-blue-600 dark:text-blue-400 hover:underline text-sm"
-            target="_blank"
-          >
-            View Project
-          </a>
+          {/* LINKS */}
+          <div className="mt-4 flex gap-4">
+            
+            {/* LIVE DEMO (replace with your Vercel link when ready) */}
+            <a
+              href="https://your-live-project.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 dark:text-blue-400 hover:underline text-sm"
+            >
+              Live Demo
+            </a>
+
+            {/* GITHUB CODE */}
+            <a
+              href="https://github.com/olyha1988/ProductAdminDashBoard"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 dark:text-gray-300 hover:underline text-sm"
+            >
+              View Code
+            </a>
+
+          </div>
 
           {/* DESCRIPTION */}
           <p className="mt-4 text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -44,7 +60,7 @@ const Projects = () => {
 
           {/* FEATURES */}
           <ul className="mt-6 space-y-2 text-gray-700 dark:text-gray-300">
-            <li> Reusable components (UserForm, Loader, UserTable)</li>
+            <li>Reusable components (UserForm, Loader, UserTable)</li>
             <li>Image upload, form validation, protected routes</li>
             <li>JWT authentication handling</li>
             <li>Responsive UI with dark mode support</li>
