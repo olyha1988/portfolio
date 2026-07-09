@@ -30,15 +30,6 @@ const Projects = () => {
           {/* LINKS */}
           <div className="mt-4 flex gap-4">
             
-            {/* LIVE DEMO (replace with your Vercel link when ready) */}
-            <a
-              href="https://your-live-project.vercel.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 dark:text-blue-400 hover:underline text-sm"
-            >
-              Live Demo
-            </a>
 
             {/* GITHUB CODE */}
             <a
