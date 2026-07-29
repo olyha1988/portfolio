@@ -30,21 +30,21 @@ const Contact=()=>{
       <div className="flex items-center gap-4">
         <Phone className="text-green-600" />
         <p className="text-gray-700 dark:text-gray-300">
-          +1 438 346 2662
+          +1 514 627 4578
         </p>
       </div>
 
       <div className="flex items-center gap-4">
         <Email className="text-red-500" />
         <p className="text-gray-700 dark:text-gray-300">
-          olyhavy@gmail.com
+          epniyitanga@gmail.com
         </p>
       </div>
 
       <div className="flex items-center gap-4">
         <WhatsApp className="text-green-500" />
         <p className="text-gray-700 dark:text-gray-300">
-          +1 438 346 2662
+          +1 514 627 4578
         </p>
       </div>
 

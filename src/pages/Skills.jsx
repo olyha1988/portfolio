@@ -27,6 +27,8 @@ const Skills = () => {
               <li> Tailwind CSS</li>
               <li> Axios & API Integration</li>
               <li>HTML5 & CSS3</li>
+               <li>Spring boot</li>
+               <li>SQL</li>
               <li>Git & GitHub</li>
               <li>MySQL</li>
               <li>Spring / Eclipse (basic knowledge)</li>
